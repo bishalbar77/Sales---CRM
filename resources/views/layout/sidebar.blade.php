@@ -161,13 +161,13 @@
       </a>
     </li> -->
     <li class="nav-item">
-      <a class="nav-link" href="https://www.bootstrapdash.com/demo/star-laravel-free/documentation/documentation.html" target="_blank">
+      <a class="nav-link" href="#" target="_blank">
         <i class="menu-icon mdi mdi-settings"></i>
         <span class="menu-title">Settings</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://www.bootstrapdash.com/demo/star-laravel-free/documentation/documentation.html" target="_blank">
+      <a class="nav-link">
         <i class="menu-icon mdi mdi-login"></i>
         <span href="/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="menu-title">Logout</span>
       </a>
