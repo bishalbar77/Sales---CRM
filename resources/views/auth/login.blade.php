@@ -6,7 +6,7 @@
     <div class="col-lg-4 mx-auto">
       <div class="auto-form-wrapper">
         <form class="form-horizontal" method="POST" action="{{ route('login') }}">
-          {{ csrf_field() }}
+          @csrf {{ csrf_field() }}
           <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
             <label class="label">Email</label>
             <div class="input-group">
